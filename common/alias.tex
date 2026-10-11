@@ -1,0 +1,35 @@
+%
+% Minimal aliases, taken from NEGF-papers/common/headers/{alias,math}.tex
+%
+% Colors (notes to self, remove before submission)
+\newcommand{\note}[1]{\textcolor{blue}{[#1]}}
+\newcommand{\todo}[1]{\textcolor{violet}{[#1]}}
+%
+% Real space
+\def\ReS  {\mathbb{R}}
+\newcommand{\di}{\mathrm{d}}
+%
+% Equations
+\newcommand{\eq}[1]{\begin{align}#1\end{align}}
+\newcommand{\eqn}[1]{\begin{align*}#1\end{align*}}
+\newcommand{\eql}[2]{\begin{align}\label{#1}#2\end{align}}
+\newcommand{\seqal}[2]{\begin{subequations}\label{#1}\begin{align}#2\end{align}\end{subequations}}
+%
+% Functions
+\newcommand{\average}[1]{\left\langle #1 \right\rangle}
+\newcommand{\pr}[1]{\left( #1 \right)}
+\newcommand{\ps}[1]{\left[ #1 \right]}
+\newcommand{\lab}[1]{\label{#1}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\e}[1]{Eq.~\eqref{#1}}
+\newcommand{\es}[2]{Eqs.~\eqref{#1}--\eqref{#2}}
+\newcommand{\tab}[1]{Tab.~\ref{#1}}
+\newcommand{\fig}[1]{Fig.~\ref{#1}}
+\renewcommand{\sec}[1]{Section~\ref{#1}}
+%
+% ML notation
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\def\bth        {\bs{\theta}}
+\def\xI         {x^{(i)}}
+\def\yI         {y^{(i)}}
+\def\hth        {h_{\bth}}
